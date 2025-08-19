@@ -9,19 +9,21 @@
 </head>
 
 <body>
-    <h1>Daily Expense Tracker</h1>
+    <div class="container">
+        <h1>Daily Expense Tracker</h1>
 
-    <form id="expense-form">
-        <input type="text" id="expense-name" placeholder="Expense Name" required>
-        <input type="number" id="expense-amount" placeholder="Amount" required>
-        <button type="submit">Add Expense</button>
-    </form>
+        <form id="expense-form">
+            <input type="text" id="expense-name" placeholder="Expense Name" required>
+            <input type="number" id="expense-amount" placeholder="Amount" required>
+            <button type="submit">Add Expense</button>
+        </form>
 
-    <h2>Expenses</h2>
-    <ul id="expense-list"></ul>
+        <h2>Expenses</h2>
+        <ul id="expense-list"></ul>
 
-    <h3>Total: ₹<span id="total">0</span></h3>
-    <script src="app.js"></script>
+        <h3>Total: ₹<span id="total">0</span></h3>
+        <script src="app.js"></script>
+    </div>
 </body>
 
 </html>
